@@ -280,3 +280,43 @@ Research/Notebooks
 
 #Docker result files
 Results/
+
+# .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# LEAN Data
+Data/
+Launcher/bin/Debug/
+ToolBox/bin/Debug/
+
+# Logs
+*.log
+
+# Environment variables and secrets
+.env
+secrets.json
+
+# Misc
+*.swp
+*.swo
